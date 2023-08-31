@@ -1,0 +1,39 @@
+.w3-theme-d2 , .w3-theme-d1 {
+    color:white !important;
+    background-color:black !important;
+}
+
+*{
+    background-color: azure;
+    font-family: Tahoma;
+}
+
+p{
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.w3-button, h2,h3{
+    font-family: Tahoma !important;
+}
+
+h1{
+    color:white !important;
+    background-color:black !important;
+    font-style: italic;
+}
+
+.recetas h2{
+    font-style: italic;
+}
+
+.ingredientes td{
+    font-weight: bold;
+}
+
+.w3-border1{
+    border: 5px outset lightblue !important;
+}

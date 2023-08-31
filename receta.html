@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <title>Recetas</title>
+    </head>
+
+    <body >
+        
+        <!-- Sidebar -->
+        <nav class="w3-sidebar w3-theme-d1 w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:20%;min-width:200px" id="sidebar">
+            <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button"> ☰</a>
+            <a href="#receta_1" onclick="w3_close()" class="w3-bar-item w3-button">Receta 1: Brownie</a>
+            <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">Receta 2: Lalala</a>
+        </nav>
+  
+        <!-- Top -->
+        <div class="w3-top w3-theme-d2">
+            <div class="w3-Large w3-theme-d2" style="max-width:1400px;margin:auto">       
+                <div class="w3-center w3-padding-14 w3-theme-d2">
+                    <h2><button class="w3-theme-d2 w3-button w3-padding-12 w3-left" onclick="w3_open()">☰</button><h2>
+                    <h1>
+                        Recetas
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contenido -->
+        <div class="w3-row-padding w3-auto w3-main ">
+            <div class="w3-container" style="margin-top:100px">
+                <div class="receta_1" id="receta_1">
+                    <h2>&nbsp;&nbsp;<b>Brownie</b></h2>
+
+                    <div class="w3-container w3-half w3-center"><br><br><br>
+                        <table class="ingredientes" width="100%">
+                            <th><u>Ingredientes</u></th>
+                            <th><u>Cantidad</u></th>
+                            <tr>
+                                <td>Nesquick o cacao en polvo</td>
+                                <td>3 cucharadas soperas</td>
+                            </tr>
+                            <tr>
+                                <td>Harina</td>
+                                <td>3 cucharadas soperas</td>
+                            </tr>
+                            <tr>
+                                <td>Aceite</td>
+                                <td>2 cucharadas soperas</td>
+                            </tr>
+                            <tr>
+                                <td>Azucar</td>
+                                <td>3 cucharadas soperas</td>
+                            </tr>
+                            <tr>
+                                <td>Leche</td>
+                                <td>3 cucharadas soperas</td>
+                            </tr>
+                            <tr>
+                                <td>Huevo</td>
+                                <td>1</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="w3-container w3-half w3-center">
+                        <img class="w3-border1" src="brownie.jpg" alt= "brownies" style="height:65%; width:65%">
+                    </div>
+
+                    <div class="w3-container w3-left">
+                        <center><h3><b>Preparacion</b></h3></center>
+                        <p>Poner en una taza de leche o un vaso de aproximademente 300 cm3 primero el aceite, después la leche y los huevos ya batidos. Mezclar todo con un tenedor.</p>
+                        <p>Poner en otra taza todo lo sólido y mezclar, es decir, la harina, el azúcar y el cacao en polvo.</p>
+                        <p>Juntar los ingredientes sólido con los líquidos en una sola taza y mezclar hasta obtener una preparación uniforme y sin grumos.</p>
+                        <p>Luego, introduce la taza en el microondas durante 3 minutos a máxima potencia. Si lo prefieres, en lugar de una taza puedes utilizar un molde de silicona rectangular.</p>
+                        <p>Retira el brownie de la taza o el molde con ayuda de un cuchillo y sin quemarte. Sírvelo con dulce de leche o crema chantillí.</p>
+                        <br><center><a class="w3-button w3-theme-d2" href="https://www.recetasgratis.net/receta-de-brownie-en-3-minutos-56872.html">Fuente de la receta</a></center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </body>
+
+    <footer class="w3-center w3-theme-d2 w3-padding-32">
+        <div class="w3-center w3-theme-d2">
+            DISFRUTA
+        </div>
+    </footer>
+    <script>
+        function w3_open() {
+            document.getElementById("sidebar").style.display = "block";
+        }
+        
+        function w3_close() {
+            document.getElementById("sidebar").style.display = "none";
+        }
+    </script>
+</html>
