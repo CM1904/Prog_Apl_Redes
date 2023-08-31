@@ -43,7 +43,7 @@ h1{
     display : block;
 }
 
-.brownie, .pasta, .pollo, .arroz {
+#brownie, #pasta, #pollo, #arroz {
     display: none;
 }
 
