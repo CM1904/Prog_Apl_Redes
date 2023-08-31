@@ -5,44 +5,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css" />
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="icon" href="img/logos/favicon.ico" type="image/png">
         <title>Recetas</title>
     </head>
 
-    <body >
-        
-        <!-- Sidebar -->
-        <nav class="w3-sidebar w3-theme-d1 w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:20%;min-width:200px" id="sidebar">
-            <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button"> ☰</a>
-            <a href="#brownie" onclick="w3_close()" class="w3-bar-item w3-button">Receta 1: Brownie</a>
-            <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">Receta 2: Lalala</a>
-        </nav>
-  
+    <body >  
         <!-- Top -->
         <div class="w3-top w3-theme-d2">
             <div class="w3-Large w3-theme-d2" style="max-width:1400px;margin:auto">       
                 <div class="w3-center w3-padding-14 w3-theme-d2">
-                    <h2><button class="w3-theme-d2 w3-button w3-padding-12 w3-left" onclick="w3_open()">☰</button><h2>
-                    <h1>
-                        Recetas
-                    </h1>
+                    <img class="w3-center w3-theme-d2" src="img/logos/luka_recetas_w.png" style="height:20%; width:20%">
                 </div>
             </div>
         </div>
 
         <!-- Contenido -->
         <div class="w3-row-padding w3-auto w3-main ">
-            <div class="w3-container" style="margin-top:100px">
+            <div class="w3-container" style="margin-top: 175px">
                 <div class="buttons w3-center" >
                     <button class="w3-theme-d2 w3-button w3-hover-purple w3-round-xxlarge w3-padding-12" id="brownie">BROWNIE</button>
+                    <!-- <a href="#brownie" class="w3-theme-d2 w3-button w3-hover-purple w3-round-xxlarge w3-padding-12">Receta 1: Brownie</a> -->
                     <button class="w3-theme-d2 w3-button w3-hover-purple w3-round-xxlarge w3-padding-12" id="pasta">PASTA AL PESTO</button>
                     <button class="w3-theme-d2 w3-button w3-hover-purple w3-round-xxlarge w3-padding-12" id="pollo">POLLO AL HORNO</button>
                     <button class="w3-theme-d2 w3-button w3-hover-purple w3-round-xxlarge w3-padding-12" id="arroz">ARROZ FRITO</button>
-
                 </div>
-                <div class="brownie" id="brownie">
-                    <h2>&nbsp;&nbsp;<b>Brownie</b></h2>
-
-                    <div class="w3-container w3-half w3-center"><br><br><br>
+                <div class="brownie" id="brownie" style="margin-top: 50px">
+                    <div class=" w3-half w3-center" style="margin-top: -80px"><br><br><br>
+                        <h2><b>BROWNIE</b></h2>
                         <table class="ingredientes" width="100%">
                             <th><u>Ingredientes</u></th>
                             <th><u>Cantidad</u></th>
@@ -74,7 +63,7 @@
                         </table>
                     </div>
                     <div class="w3-container w3-half w3-center">
-                        <img class="w3-border1" src="brownie.jpg" alt= "brownies" style="height:65%; width:65%">
+                        <img class="w3-border1" src="img/recetas/brownie.jpg" alt= "brownies" style="height:65%; width:65%">
                     </div>
 
                     <div class="w3-container w3-left">
@@ -87,6 +76,10 @@
                         <br><center><a class="w3-button w3-theme-d2" href="https://www.recetasgratis.net/receta-de-brownie-en-3-minutos-56872.html">Fuente de la receta</a></center>
                     </div>
                 </div>
+
+                <div class="pasta" id="pasta" style="margin-top: 50px">pasta</div>
+                <div class="pollo" id="pollo" style="margin-top: 50px">pollo</div>
+                <div class="arroz" id="arroz" style="margin-top: 50px">arroz</div>
             </div>
         </div>
         <br><br>
