@@ -45,17 +45,9 @@ let buttons = document.querySelectorAll('.w3-button');
 buttons.forEach(function(button) {
     button.addEventListener('click', function() {
         buttons.forEach(function(btn) {
-            btn.classList.remove('w3-gray');
+            btn.classList.remove('w3-blue');
         });
-        button.classList.add('w3-gray');
+        button.classList.add('w3-blue');
     });
 });
 
-
-function w3_open() {
-    document.getElementById("sidebar").style.display = "block";
-}
-
-function w3_close() {
-    document.getElementById("sidebar").style.display = "none";
-}
