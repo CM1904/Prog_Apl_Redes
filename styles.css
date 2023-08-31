@@ -37,3 +37,17 @@ h1{
 .w3-border1{
     border: 5px outset black !important;
 }
+
+.inicio {
+    text-align: center;
+    display : block;
+}
+
+.brownie, .pasta, .pollo, .arroz {
+    display: none;
+}
+
+.w3-gray {
+    background-color: gray !important;
+    color: black !important;
+}
